@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\projects\\Manage-Works\\ManageWorks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\data\\inmemorydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:data\\inmemorydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:dto\\taskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|c:\\projects\\manage-works\\manageworks\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A54F4D-A394-46F9-B9C0-5930A057CBAF}|ManageWorks.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:50:09.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\DTO\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTO\\RegisterDto.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\DTO\\RegisterDto.cs",
+              "RelativeToolTip": "DTO\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:25:48.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:16:03.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:24:29.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:24:09.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:06:52.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InMemoryDatabase.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Data\\InMemoryDatabase.cs",
+              "RelativeDocumentMoniker": "Data\\InMemoryDatabase.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Data\\InMemoryDatabase.cs",
+              "RelativeToolTip": "Data\\InMemoryDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:25:15.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:49:30.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TasksController.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "Controllers\\TasksController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T12:49:49.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-05T11:06:54.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\DTO\\TaskDto.cs",
+              "RelativeDocumentMoniker": "DTO\\TaskDto.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\DTO\\TaskDto.cs",
+              "RelativeToolTip": "DTO\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:26:27.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskItem.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\Models\\TaskItem.cs",
+              "RelativeDocumentMoniker": "Models\\TaskItem.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\Models\\TaskItem.cs",
+              "RelativeToolTip": "Models\\TaskItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:16:24.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\projects\\Manage-Works\\ManageWorks\\DTO\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTO\\LoginDto.cs",
+              "ToolTip": "C:\\projects\\Manage-Works\\ManageWorks\\DTO\\LoginDto.cs",
+              "RelativeToolTip": "DTO\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:26:05.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
