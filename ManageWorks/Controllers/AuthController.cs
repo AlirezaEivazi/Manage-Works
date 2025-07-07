@@ -13,7 +13,7 @@ namespace ManageWorks.Controllers
     [Route("api/auth")]
     public class AuthController : ControllerBase
     {
-        private readonly  UserService _userService;
+        private readonly UserService _userService;
         private readonly JwtService _jwtService;
 
         public AuthController(UserService userService, JwtService jwtService)

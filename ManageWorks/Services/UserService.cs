@@ -11,14 +11,14 @@ namespace ManageWorks.Services
 
         public bool Register(RegisterDto dto)
         {
-            
+
             if (InMemoryDatabase.Users.Any(u => u.Username == dto.Username))
                 return false;
 
             var user = new User
             {
                 Username = dto.Username,
-                Role = "User" 
+                Role = "User"
             };
 
             user.PasswordHash = _hasher.HashPassword(user, dto.Password);

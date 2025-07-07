@@ -4,6 +4,7 @@ using ManageWorks.DTO;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
+using System.Security.Claims;
 
 namespace ManageWorks.Controllers
 {
@@ -29,7 +30,7 @@ namespace ManageWorks.Controllers
             var user = new User
             {
                 Username = dto.Username,
-                Role = "User",
+                Role = dto.Role, // ✅ نقش دریافتی از فرانت‌اند
             };
 
             user.PasswordHash = _hasher.HashPassword(user, dto.Password);
@@ -37,6 +38,8 @@ namespace ManageWorks.Controllers
 
             return Ok(user);
         }
+
+
 
         [HttpPut("users/{username}")]
         public IActionResult EditUser(string username, RegisterDto dto)
@@ -47,8 +50,14 @@ namespace ManageWorks.Controllers
             user.Username = dto.Username;
             user.PasswordHash = _hasher.HashPassword(user, dto.Password);
 
+            if (!string.IsNullOrWhiteSpace(dto.Role)) // ✅ فقط اگر نقش داده شده بود
+            {
+                user.Role = string.IsNullOrWhiteSpace(dto.Role) ? "User" : dto.Role;
+            }
+
             return Ok(user);
         }
+
 
         [HttpDelete("users/{username}")]
         public IActionResult DeleteUser(string username)

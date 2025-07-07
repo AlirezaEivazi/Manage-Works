@@ -6,6 +6,9 @@
         public string? Text { get; set; }
         public bool IsDone { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
-        public string ? OwnerUsername { get; set; }  
+        public string? OwnerUsername { get; set; }
+        public string Category { get; set; }
+        public DateTime? DeadLine { get; set; }
+
     }
 }

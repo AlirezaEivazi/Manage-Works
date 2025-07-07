@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\Manage-Works\\ManageWorks\\ManageWorks.csproj": {}
+    "C:\\Manage-Works\\ManageWorks\\ManageWorks.csproj": {}
   },
   "projects": {
-    "C:\\projects\\Manage-Works\\ManageWorks\\ManageWorks.csproj": {
+    "C:\\Manage-Works\\ManageWorks\\ManageWorks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\Manage-Works\\ManageWorks\\ManageWorks.csproj",
+        "projectUniqueName": "C:\\Manage-Works\\ManageWorks\\ManageWorks.csproj",
         "projectName": "ManageWorks",
-        "projectPath": "C:\\projects\\Manage-Works\\ManageWorks\\ManageWorks.csproj",
+        "projectPath": "C:\\Manage-Works\\ManageWorks\\ManageWorks.csproj",
         "packagesPath": "C:\\Users\\Alireza23\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\Manage-Works\\ManageWorks\\obj\\",
+        "outputPath": "C:\\Manage-Works\\ManageWorks\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
