@@ -34,6 +34,7 @@ import { DateTimePicker } from '@mui/x-date-pickers/DateTimePicker';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { format, parseISO } from 'date-fns';
+import { toZonedTime } from 'date-fns-tz';
 
 // Google Material Design colors
 const COLORS = {
@@ -74,6 +75,20 @@ interface Category {
   id: string;
   name: string;
 }
+
+const iranTimeZone = 'Asia/Tehran';
+
+const formatInIranTime = (dateString: string | Date) => {
+  const date = typeof dateString === 'string' ? new Date(dateString) : dateString;
+  const iranTime = toZonedTime(date, iranTimeZone);
+  return format(iranTime, 'MMM dd, yyyy HH:mm');
+};
+
+const convertToIranTime = (date: Date | null): Date | null => {
+  if (!date) return null;
+  const iranTime = toZonedTime(date, iranTimeZone);
+  return new Date(iranTime);
+};
 
 const TasksPage: React.FC = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
@@ -167,6 +182,16 @@ const TasksPage: React.FC = () => {
   const handleAddTask = async () => {
     const trimmedText = newTaskText.trim();
     if (!trimmedText) return;
+
+    const isDuplicate = tasks.some(
+      task => task.text.toLowerCase() === trimmedText.toLowerCase() && 
+             task.category === newTaskCategory
+    );
+
+    if (isDuplicate) {
+      showSnackbar('A task with the same text and category already exists');
+      return;
+    }
 
     try {
       const token = localStorage.getItem('token');
@@ -417,7 +442,6 @@ const TasksPage: React.FC = () => {
           </DialogActions>
         </Dialog>
 
-        {/* Rest of your existing code remains the same */}
         {/* Add Task Section */}
         <Box sx={{
           maxWidth: 1200,
@@ -742,7 +766,7 @@ const TasksPage: React.FC = () => {
                         color: new Date(task.deadLine) < new Date() && !task.isDone ? COLORS.error : COLORS.onSurfaceMedium,
                         fontWeight: new Date(task.deadLine) < new Date() && !task.isDone ? 600 : 'normal'
                       }}>
-                        Deadline: {format(new Date(task.deadLine), 'MMM dd, yyyy HH:mm')}
+                        Deadline: {formatInIranTime(task.deadLine)}
                         {new Date(task.deadLine) < new Date() && !task.isDone && ' (Overdue)'}
                       </Typography>
                     </Box>
@@ -750,7 +774,7 @@ const TasksPage: React.FC = () => {
                   
                   <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <Typography variant="caption" sx={{ color: COLORS.onSurfaceMedium }}>
-                      Created: {format(new Date(task.createdAt), 'MMM dd, yyyy HH:mm')}
+                      Created: {formatInIranTime(task.createdAt)}
                     </Typography>
                     <Box>
                       <IconButton
@@ -758,7 +782,7 @@ const TasksPage: React.FC = () => {
                           setTaskToEdit(task);
                           setEditTaskText(task.text);
                           setEditTaskCategory(task.category || '');
-                          setEditTaskDeadline(task.deadLine ? new Date(task.deadLine) : null);
+                          setEditTaskDeadline(task.deadLine ? convertToIranTime(new Date(task.deadLine)) : null);
                         }}
                         size="small"
                         sx={{ 
@@ -994,7 +1018,7 @@ const TasksPage: React.FC = () => {
                 },
               }}
             >
-              <option value="">No Category</option>
+              <option value=""></option>
               {categories.map((category) => (
                 <option key={category.id} value={category.name}>
                   {category.name}
