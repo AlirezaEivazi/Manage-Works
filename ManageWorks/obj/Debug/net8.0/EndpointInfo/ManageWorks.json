@@ -431,6 +431,18 @@
           }
         }
       }
+    },
+    "/api/admin/cleanup-categories": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {

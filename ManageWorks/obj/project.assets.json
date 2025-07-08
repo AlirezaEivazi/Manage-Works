@@ -902,23 +902,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alireza23\\.nuget\\packages\\": {},
+    "C:\\Users\\Eivazi\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Manage-Works\\ManageWorks\\ManageWorks.csproj",
+      "projectUniqueName": "C:\\Users\\Eivazi\\Manage-Works\\ManageWorks\\ManageWorks.csproj",
       "projectName": "ManageWorks",
-      "projectPath": "C:\\Manage-Works\\ManageWorks\\ManageWorks.csproj",
-      "packagesPath": "C:\\Users\\Alireza23\\.nuget\\packages\\",
-      "outputPath": "C:\\Manage-Works\\ManageWorks\\obj\\",
+      "projectPath": "C:\\Users\\Eivazi\\Manage-Works\\ManageWorks\\ManageWorks.csproj",
+      "packagesPath": "C:\\Users\\Eivazi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Eivazi\\Manage-Works\\ManageWorks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Alireza23\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Eivazi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -927,6 +927,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Eivazi\\Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -945,7 +946,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -983,7 +984,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   },

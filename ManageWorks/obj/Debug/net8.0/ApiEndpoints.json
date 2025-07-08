@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "ManageWorks.Controllers.UserController",
+    "Method": "CleanupCategories",
+    "RelativePath": "api/admin/cleanup-categories",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ManageWorks.Controllers.UserController",
     "Method": "GetUsers",
     "RelativePath": "api/admin/users",
     "HttpMethod": "GET",

@@ -1,4 +1,6 @@
-﻿namespace ManageWorks.Models
+﻿using ManageWorks.Data;
+
+namespace ManageWorks.Models
 {
     public class User
     {
@@ -6,7 +8,8 @@
         public string? PasswordHash { get; set; }
         public string? Role { get; set; }
         public string? NotificationUrl { get; set; }
-        public List<TaskItem> Tasks { get; set; } = new();
+        public List<TaskItem> Tasks =>
+        InMemoryDatabase.Tasks.Where(t => t.OwnerUsername == Username).ToList();
 
     }
 }
